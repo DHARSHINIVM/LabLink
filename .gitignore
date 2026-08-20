@@ -80,3 +80,7 @@ lablink_backup.*
 # =========================
 *.tmp
 *.temp
+# Local project backups / inspection files
+android_backup/
+backup_contents.txt
+backend_file_list.txt
