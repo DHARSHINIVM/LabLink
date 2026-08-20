@@ -1,0 +1,82 @@
+# =========================
+# Flutter
+# =========================
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+build/
+
+# =========================
+# Android
+# =========================
+android/.gradle/
+android/local.properties
+android/key.properties
+android/app/debug/
+android/app/profile/
+android/app/release/
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+backend/venv/
+venv/
+.venv/
+
+# =========================
+# Environment / secrets
+# =========================
+.env
+.env.*
+backend/.env
+backend/.env.*
+
+# Allow example environment files
+!.env.example
+!backend/.env.example
+
+# =========================
+# Python tooling
+# =========================
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# =========================
+# IDE
+# =========================
+.vscode/
+.idea/
+*.iml
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Local database / backups
+# =========================
+*.dump
+*.sql
+lablink_backup.*
+
+# =========================
+# Temporary files
+# =========================
+*.tmp
+*.temp
